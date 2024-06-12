@@ -3,7 +3,7 @@ import fs from 'fs';
 
 const USERS_FILE = './users.json';
 
-class UsersDao {
+class UsersNgu {
     //Read data from users.json
     readUsers() {
         const users = fs.readFileSync(USERS_FILE, 'utf-8');
@@ -15,4 +15,4 @@ class UsersDao {
     }
 }
 
-export default new UsersDao();
+export default new UsersNgu();
