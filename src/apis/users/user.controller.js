@@ -1,4 +1,4 @@
-import userService from "./user.service";
+import userService from "./user.products";
 
 class UserController {
     // get all users
